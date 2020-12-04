@@ -1,105 +1,60 @@
+/* 
+
+    Primary: 
+    Secondary:
+    Background: #34495e
+    Success: #2ecc71 #27ae60
+    Warning: #e67e22 #d35400
+    Danger: #e74c3c #c0392b
+
+*/
+
+
 body {
-    background: #dff5ff;
+    background: #34495e;
 }
 
-a {
-    color: #568EA6;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+.status-success {
+    width: 21px;
+    height: 21px;
+    border-radius: 20px;
+    background: #2ecc71;
+    transition: all .3s ease-in;
 }
 
-a:hover {
-    color: #305F72;
-    text-decoration: underline;
-    transition: all 0.3s ease-in-out;
+.status-success:hover {
+    width: 21px;
+    height: 21px;
+    border-radius: 20px;
+    background: #27ae60;
 }
 
-.effet-zoom {
-    transition: all .5s ease-in-out;
+.status-warning {
+    width: 21px;
+    height: 21px;
+    border-radius: 20px;
+    background: #e67e22;
+    transition: all .3s ease-in;
 }
 
-.effet-zoom:hover {
-    padding: 25px 0;
-    transition: all .5s ease-in-out;
+.status-warning:hover {
+    width: 21px;
+    height: 21px;
+    border-radius: 20px;
+    background: #d35400;
 }
 
-/* Card */
-
-.card-box {
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    color: #777777;
+.status-danger {
+    width: 21px;
+    height: 21px;
+    border-radius: 20px;
+    background: #e74c3c;
+    transition: all .3s ease-in;
 }
 
-.progress-bar {
-    transition: all 0.5s ease-in-out;
-}
-
-.progress-bar:hover {
-    background-color: #305F72;
-    transition: all 0.5s ease-in-out;
-}
-
-/* Social */
-
-.twitter  {
-    color: #1DA1F2;
- }
-
-.github {
-    color: #211F1F;
-}
- 
-.linkedin {
-    color: #0072b1;
-}
-
-/* Tab */
-
-.tab-content-custom > .active {
-    display: block;
-    background: white;
-    padding: 20px;
-}
-
-.project-line {
-    height: 3px;
-    width: 50px;
-    background-color: #568EA6;
-    margin: 0 auto;
-}
-
-a img {
-    transition: all .5s ease-out;
-}
-
-a img:hover {
-    opacity: 0.5;
-    transition: all .5s ease-out;
-}
-
-/* Colors */
-
-.text-myprimary {
-    color: #568EA6;
-}
-
-.bg-myprimary {
-   background-color: #568EA6;
-}
-
-/* Button */
-
-.btn-myprimary {
-    color: #fff;
-    background-color: #568EA6;
-    border-color: #568EA6;
-}
-  
-.btn-myprimary:hover {
-    color: #fff;
-    background-color: #305F72;
-    border-color: #568EA6;
+.status-danger:hover {
+    width: 21px;
+    height: 21px;
+    border-radius: 20px;
+    background: #c0392b;
 }
