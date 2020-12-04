@@ -19,7 +19,7 @@
   <section>
     <div class="container mt-5">
       <div class="row">
-        <div class="col-12 col-lg-7">
+        <div class="col-12 col-lg-7 mb-5">
           <ul class="list-group box-shadow">
             <li class="list-group-item">Sebastien <a class="float-right" href="https://github.com/nerfic/lazy-pull"
                 target="_blank" class="float-right">https://github.com/nerfic/lazy-pull</a>
@@ -35,13 +35,19 @@
             </li>
           </ul>
         </div>
-        <div class="col-5">
+        <div class="col-12 col-lg-5">
           <div class="card">
             <div class="card-header">
               Effectuer une action
             </div>
             <div class="card-body">
               <div class="row">
+                <div class="alert alert-success" style="width: 100%;" role="alert">
+                  Bravo! Les repository ont bien été clone/pull
+                </div>
+                <div class="alert alert-danger" style="width: 100%;" role="alert">
+                  Erreur: Un ou des repository sont inexistant
+                </div>
                 <div class="input-group mb-3">
                   <div class="input-group-prepend">
                     <label class="input-group-text" for="inputGroupSelect01">Repository</label>
@@ -54,7 +60,6 @@
                   </select>
                 </div>
               </div>
-
               <div class="row justify-content-around">
                 <button type="button" class="btn btn-dark">Git Clone / Pull</button>
                 <button type="button" class="btn btn-dark">Open in Browser</button>
