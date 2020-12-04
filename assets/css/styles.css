@@ -11,8 +11,18 @@
 
 
 body {
-    background: #34495e;
+    background: #2c3e50;
 }
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Status */
 
 .status-success {
     width: 21px;
@@ -57,4 +67,10 @@ body {
     height: 21px;
     border-radius: 20px;
     background: #c0392b;
+}
+
+/* Cards */
+
+.box-shadow {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0,1.0);
 }

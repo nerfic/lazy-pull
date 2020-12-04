@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -16,23 +20,48 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col-12 col-lg-7">
-          <ul class="list-group">
+          <ul class="list-group box-shadow">
             <li class="list-group-item">Sebastien <a class="float-right" href="https://github.com/nerfic/lazy-pull"
                 target="_blank" class="float-right">https://github.com/nerfic/lazy-pull</a>
               <p>Last commit: 1 week ago <span class="float-right status-success"></span></p>
             </li>
-            <li class="list-group-item">Sebastien <a class="float-right" href="https://github.com/nerfic/lazy-pull"
+            <li class="list-group-item">Allan <a class="float-right" href="https://github.com/nerfic/lazy-pull"
                 target="_blank" class="float-right">https://github.com/nerfic/lazy-pull</a>
               <p>Last commit: few seconds <span class="float-right status-warning"></span></p>
             </li>
-            <li class="list-group-item">Sebastien <a class="float-right" href="https://github.com/nerfic/lazy-pull"
+            <li class="list-group-item">Xavier <a class="float-right" href="https://github.com/nerfic/lazy-pull"
                 target="_blank" class="float-right">https://github.com/nerfic/lazy-pull</a>
               <p>Error: No repository <span class="float-right status-danger"></span></p>
             </li>
           </ul>
         </div>
         <div class="col-5">
-          <p>Col-5</p>
+          <div class="card">
+            <div class="card-header">
+              Effectuer une action
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text" for="inputGroupSelect01">Repository</label>
+                  </div>
+                  <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>Aucun</option>
+                    <option value="1">digitous-html-cuisine</option>
+                    <option value="2">digitous-html-bootstrap</option>
+                    <option value="3">lazy-pull</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row justify-content-around">
+                <button type="button" class="btn btn-dark">Git Clone / Pull</button>
+                <button type="button" class="btn btn-dark">Open in Browser</button>
+              </div>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
