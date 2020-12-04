@@ -22,6 +22,10 @@ span {
     font-family: 'Roboto', sans-serif;
 }
 
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Status */
 
 .status-success {
@@ -33,9 +37,6 @@ span {
 }
 
 .status-success:hover {
-    width: 21px;
-    height: 21px;
-    border-radius: 20px;
     background: #27ae60;
 }
 
@@ -48,9 +49,6 @@ span {
 }
 
 .status-warning:hover {
-    width: 21px;
-    height: 21px;
-    border-radius: 20px;
     background: #d35400;
 }
 
@@ -63,9 +61,6 @@ span {
 }
 
 .status-danger:hover {
-    width: 21px;
-    height: 21px;
-    border-radius: 20px;
     background: #c0392b;
 }
 
