@@ -1,5 +1,5 @@
 /* 
-    https://flatuicolors.com/palette/defo
+
     Primary: 
     Secondary:
     Background: #34495e
@@ -9,20 +9,11 @@
 
 */
 
-
-body {
-    background: rgba(44, 62, 80,1.0);
-}
-
 p {
     font-family: 'Roboto', sans-serif;
 }
 
 span {
-    font-family: 'Roboto', sans-serif;
-}
-
-.font-roboto {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -66,6 +57,108 @@ span {
 
 /* Cards */
 
-.box-shadow {
-    box-shadow: 5px 5px 5px rgba(0, 0, 0,1.0);
+body{
+    min-height: 100vh;
+    background:rgb(156, 53, 53);
+}
+
+.box{
+    position: relative;
+    background: #2d2f38;
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.padd{
+    padding:40px 40px 60px;
+
+}
+
+
+.box h5{
+    color: #c7c7c7;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.box .input{
+    text-align: left;
+    margin-top: 40px;
+}
+
+.box .input .inputbox{
+    margin-top: 20px;
+}
+
+.box .input .inputbox label{
+    margin-top: 20px;
+    display: block;
+    color: #868686;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.box li{
+    margin-top: 20px;
+    font-size: 18px;
+    background: #131419;
+    color: #c7c7c7;
+    color: #c7c7c7;
+    box-shadow:inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.box li a{
+    color: #868686;
+}
+
+.box .input .inputbox input{
+    
+    height: 50px;
+    background: #131419;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: #c7c7c7;
+    font-size: 18px;
+    color: #c7c7c7;
+    box-shadow:inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+/* select{
+    width: auto;
+} */
+
+.box .input .inputbox select{
+    height: 50px;
+    background: #131419;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: #c7c7c7;
+    font-size: 18px;
+    color: #c7c7c7;
+    box-shadow:inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.box .input .inputbox input[type="submit"]{
+    margin-top: 20px;
+    box-shadow:
+                2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.box .input .inputbox input[type="submit"]:hover{
+    color:rgb(156, 53, 53);
+    margin-top: 20px;
+    box-shadow:
+                inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.box .input .inputbox input::placeholder{
+    color: #555;
+    font-size: 18px;
+}
+
+.sti{
+    position: sticky;
+    top: 96px;
 }
